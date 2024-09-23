@@ -18,7 +18,7 @@ export const Misson = ({ data }: { data: any }) => {
           <p className="text-[#514F4F] text-[18px]" dangerouslySetInnerHTML={{__html: data?.description}}/>
         </div>
 
-        <div className="flex relative w-[3.0px] h-[310px] xl:w-[557px] xl:h-[567px]">
+        <div className="flex relative w-[310px] h-[310px] xl:w-[557px] xl:h-[567px]">
           <div className="flex absolute top-0 left-0 w-full h-full justify-end items-start mr-2.5">
             <div className="relative w-[290px] z-[2] h-[290px] rounded-[32px] xl:w-[530px] xl:h-[530px] drop-shadow-2xl overflow-hidden">
               <Image

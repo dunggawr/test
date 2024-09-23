@@ -23,7 +23,7 @@ export const Banner: React.FC<{ data: Section }> = ({ data }) => {
                     </div>
                 </div>
 
-                <div className="grid grid-rows-3 grid-cols-3 w-[310px] h-[310px] lg:w-[400px] lg:h-[400px] place-items-center my-8 lg:my-0">
+                <div className="grid grid-rows-3 grid-cols-3 w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] place-items-center my-8 lg:my-0">
                     <div className="w-[800px] h-[800px] md:w-[120px] md:h-[120px]"></div>
 
                     <div className="relative w-[80px] h-[80px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
