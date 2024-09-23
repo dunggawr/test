@@ -71,9 +71,9 @@ export const AboutUs = ({ data }: { data: Section }) => {
 
                 {/* mobile */}
                 <div className="block lg:hidden">
-                    <div className="flex relative w-[330px] h-[330px]">
+                    <div className="flex relative w-[310px] h-[310px]">
                         <div className="flex absolute w-full h-full justify-start items-start mr-2.5">
-                            <div className="relative w-[230px] z-[2] h-[230px] rounded-[32px] drop-shadow-2xl overflow-hidden">
+                            <div className="relative w-[210px] z-[2] h-[210px] rounded-[32px] drop-shadow-2xl overflow-hidden">
                                 <Image
                                     fill={true}
                                     style={{
@@ -88,11 +88,11 @@ export const AboutUs = ({ data }: { data: Section }) => {
                         </div>
 
                         <div className="flex absolute w-full h-full justify-center items-center mr-2.5">
-                            <div className="w-[230px] z-[0] h-[230px] rounded-[32px] bg-[#BE5C59]"></div>
+                            <div className="w-[210px] z-[0] h-[210px] rounded-[32px] bg-[#BE5C59]"></div>
                         </div>
 
                         <div className="flex absolute w-full h-full justify-end items-end mr-2.5">
-                            <div className="relative w-[230px] z-[1] h-[230px] rounded-[32px] drop-shadow-2xl overflow-hidden">
+                            <div className="relative w-[210px] z-[1] h-[210px] rounded-[32px] drop-shadow-2xl overflow-hidden">
                                 <Image
                                     fill={true}
                                     style={{
