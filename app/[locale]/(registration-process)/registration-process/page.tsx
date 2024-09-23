@@ -22,7 +22,7 @@ export default function Page() {
             <Step1 data={section[1]}/>
             <Step2 data={section[2]}/>
             <Step3 data={section[3]}/>
-            <Step4 data={section[4]}/>
+            {/* <Step4 data={section[4]}/> */}
             <Step5 data={section[5]}/>
             <Step6 data={section[6]}/>
         </React.Fragment>
