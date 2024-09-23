@@ -18,9 +18,9 @@ export const Misson = ({ data }: { data: any }) => {
           <p className="text-[#514F4F] text-[18px]" dangerouslySetInnerHTML={{__html: data?.description}}/>
         </div>
 
-        <div className="flex relative w-[310px] h-[310px] xl:w-[557px] xl:h-[567px]">
+        <div className="flex relative w-[280px] h-[290px] lg:w-[330px] lg:h-[330px] xl:w-[567px] xl:h-[577px]">
           <div className="flex absolute top-0 left-0 w-full h-full justify-end items-start mr-2.5">
-            <div className="relative w-[290px] z-[2] h-[290px] rounded-[32px] xl:w-[530px] xl:h-[530px] drop-shadow-2xl overflow-hidden">
+            <div className="relative w-[270px] h-[270px] lg:w-[310px] z-[2] lg:h-[310px] rounded-[32px] xl:w-[530px] xl:h-[530px] drop-shadow-2xl overflow-hidden">
               <Image
                 fill
                 style={{
@@ -35,7 +35,7 @@ export const Misson = ({ data }: { data: any }) => {
           </div>
 
           <div className="flex absolute top-0 right-0 w-full h-full justify-start items-end mr-2.5">
-            <div className="z-0 w-[290px] h-[290px] bg-[#E5BEBD] xl:w-[530px] xl:h-[530px] rounded-[32px]"></div>
+            <div className="z-0 w-[270px] h-[270px] lg:w-[310px] lg:h-[310px] bg-[#E5BEBD] xl:w-[530px] xl:h-[530px] rounded-[32px]"></div>
           </div>
         </div>
       </div>
