@@ -1,0 +1,289 @@
+{
+    "infomation": {
+        "Hotline_label": "Hotline: ",
+        "hotline": "0365190188 / 0915201754",
+        "Messenger_label": "Messenger: ",
+        "message": "",
+        "Email_label": "Email: ",
+        "email": "",
+        "List": "Directory",
+        "Address": "Address: ",
+        "copyright": "© COPYRIGHT 2024 - Minimal English"
+    },
+    "home": {
+        "banner": {
+            "title": "Minimal English -",
+            "slogan": "Simple Learning, Higher Scores!",
+            "content": "Minimal English is a specialized IELTS class designed to help students achieve their goals in the IELTS exam through a minimalist and effective learning approach. We combine Hybrid Learning methods with differentiated and personalized teaching approaches, ensuring that each student receives maximum attention and support."
+        },
+        "about_us": {
+            "label": "ABOUT MINIMAL ENGLISH",
+            "title1": "Derived from",
+            "title2": "Passion and Determination",
+            "content": "With the Hybrid Learning method, combining both in-person and online learning, we provide students with a friendly environment and a minimalist yet effective learning approach. At Minimal English, students not only gain knowledge but also build confidence and motivation to grow in their own ways. We are committed to delivering the highest teaching quality, helping students achieve their learning goals and overcome all challenges."
+        },
+        "outstanding_class": {
+            "label": "FEATURED CLASSES",
+            "title": "Classes at Minimal English",
+            "info_classes": [
+                {
+                    "name": "Class: Mầm (Sprout)",
+                    "description": "The Mầm class at Minimal English is for students with an entry level of 4.0+. The goal of the class is to consolidate and improve basic English skills. Students will be comprehensively trained in Listening, Reading, Speaking, and Writing skills, helping to build a solid foundation for further development at higher levels.",
+                    "image": "/images/class/outstanding_class_1.png"
+                },
+                {
+                    "name": "Class: Rễ (Root)",
+                    "description": "The Rễ class is designed for students with an entry level of 5.0+. This class focuses on enhancing intermediate English skills and preparing for the IELTS exam. Students will be guided on effective test-taking strategies, developing linguistic thinking skills, and improving Listening, Reading, Speaking, and Writing skills comprehensively.",
+                    "image": "/images/class/outstanding_class_2.png"
+                },
+                {
+                    "name": "Class: Thân (Trunk)",
+                    "description": "The Thân class is for students with an entry level of 6.0+. The goal of the class is to develop advanced English skills and thoroughly prepare for the IELTS exam. Students will learn test-taking strategies, improve language skills, and boost their confidence in using English at a higher level.",
+                    "image": "/images/class/outstanding_class_3.png"
+                },
+                {
+                    "name": "The Finish Line Class",
+                    "description": "The Finish Line Class is a free class, exclusively for students who have paid for the official IELTS exam. The purpose of this class is to perfect the ...",
+                    "image": "/images/class/outstanding_class_4.png"
+                },
+                {
+                    "name": "The Language Roots Class",
+                    "description": "The Language Roots Class is designed to build a solid foundation and mindset for academic English. This class is suitable for ...",
+                    "image": "/images/class/outstanding_class_5.png"
+                },
+                {
+                    "name": "Class: Nhánh chuyên Listening & Reading",
+                    "description": "The Listening & Reading Branch focuses on improving Listening and Reading skills under time pressure, helping students develop a mindset for learning skills ...",
+                    "image": "/images/class/outstanding_class_6.png"
+                },
+                {
+                    "name": "Class: Nhánh chuyên Writing",
+                    "description": "The Writing Branch class includes three main topics: Academic English thinking, descriptive writing thinking (Descriptive essay for Task 1), and ...",
+                    "image": "/images/class/outstanding_class_7.png"
+                }
+            ]
+        },
+        "testimonial": {
+            "label": "Student/Parent Feedback",
+            "title": "Feedback from Students/Parents about Minimal English",
+            "info_testimonials": [
+                {
+                    "name" : "Nguyen Thao Uyen",
+                    "address": "Nam Dan, Nghe An",
+                    "content": "Before I knew Minimal English, I was just a shy student and lacked confidence in my English ability. Compared to my peers, my English ability was poor in all aspects, while my family could not afford to send me to extra classes like other students. My parents were very sad and worried about my future."
+                    },
+                    {
+                    "name" : "Nguyen Thao Uyen",
+                    "address": "Nam Dan, Nghe An",
+                    "content": "Before I knew Minimal English, I was just a shy student and lacked confidence in my English ability. Compared to my peers, my English ability was poor in all aspects, while my family did not have the means to send me to extra classes like other students. My parents were very sad and worried about my future."
+                    }
+            ]
+        },
+        "why_us": {
+            "label": "WHY CHOOSE MINIMAL ENGLISH",
+            "title": "Benefits of Studying at Minimal English",
+            "info_why_us": [
+                {
+                    "title": "Minimalist Learning Method:",
+                    "content": "Minimal English applies the Hybrid Learning method, combining in-person and online learning, allowing students to access knowledge flexibly and optimize their study time."
+                },
+                {
+                    "title": "Professional Instructors:",
+                    "content": "The teaching staff, academic staff, and teaching assistants at Minimal English all have IELTS scores of 7.5+, with the founder and main instructor scoring 8.0 IELTS. The instructors hold certifications and have years of teaching experience, ensuring the highest teaching quality."
+                },
+                {
+                    "title": "Maximum Support for Students:",
+                    "content": "Minimal English offers free retakes within 3 months for students who do not achieve their target scores."
+                },
+                {
+                    "title": "Flexible Tuition Policies:",
+                    "content": "The center provides flexible tuition packages and attractive promotions, making it accessible for all students to join the courses."
+                },
+                {
+                    "title": " Friendly Learning Environment:",
+                    "content": "Minimal English creates a friendly and supportive learning environment, helping students feel comfortable and confident during their studies."
+                },
+                {
+                    "title": "Advanced Technology:",
+                    "content": "The center applies automatic scoring technology and an online learning system, enabling students to self-assess and improve their skills effectively."
+                },
+                {
+                    "title": "Comprehensive Support:",
+                    "content": "Minimal English provides post-class learning support, including homework, supplementary materials, and assistance from instructors and academic staff."
+                }
+            ]
+        },
+        "video": "video"
+    },
+    "about_us":{
+        "mission": {
+            "label": "Mission",
+            "content": "Minimal English strives to offer English courses that are easy to understand, simple, and effective. We focus on minimalist thinking in both our teaching methods and the content delivered, helping students grasp knowledge more easily and quickly. Our experienced and dedicated teaching staff are always ready to support and accompany students on their journey to mastering English. We aim to help students improve their English proficiency and achieve higher educational and career goals."
+        },
+        "vision": {
+            "label": "Vision",
+            "content": "At Minimal English, our goal is to become a reputable language training institution, offering high-quality English education at an affordable cost. We believe that through education, students can expand their learning and career opportunities, laying a solid foundation for the future. We aspire to be a place where every student can develop themselves comprehensively and sustainably."
+        },
+        "brand_story": {
+            "label": "Brand Story",
+            "description": "Ms. Hằng Nga, the founder of Minimal English, is a living example of how perseverance and passion can lead to remarkable success. Her story is an inspiring journey of overcoming challenges and relentless effort to build a better future.",
+            "detail_stories": [
+                {
+                    "year": "The Beginning",
+                    "content": "A challenging marriage brought many obstacles to Ms. Hằng Nga. At the age of 27, she started over with a passion for education. Starting with an IELTS score of only 3-4.0, she persevered in self-study, gradually increasing her score to 6.5, continuing to strive for 7.5, and eventually achieving 8.0 IELTS."
+                },
+                {
+                    "year": "2015",
+                    "content": "During nearly four years as an academic supervisor at an English center, Ms. Hằng Nga gained valuable experience. She authored a book for the Vietnam National University Publishing House, which was widely published and distributed. During this time, she continued her studies, earning a Master's degree in TESOL from Victoria University – Melbourne, Australia, at the end of 2018."
+                },
+                {
+                    "year": "2020",
+                    "content": "Ms. Hằng Nga started teaching classes at home, aiming to create an accessible learning experience, helping people approach IELTS more easily and simply. Beginning with only a few students, thanks to the trust of parents, the number of students gradually increased."
+                },
+                {
+                    "year": "2020 to Present:",
+                    "content": "Ms. Hằng Nga always believes that 'Thanks to education, my life has changed dramatically, and I want to help others improve their lives through education as I did.' Since 2020, over 50 students have achieved their aim of 6.5-7.5. Minimal English aspires to help 300 students achieve a score of 6.5 or higher within the next five years, becoming a friendly learning environment with a dedicated and diligent team."
+                }
+            ]
+        },
+        "highlights": {
+            "label": "Highlight",
+            "description": "Minimal English is not just an English class but a symbol of perseverance and the spirit of not giving up. It is also a place where Ms. Hằng Nga imparts values of consistency, minimalism, and effectiveness in learning.",
+            "lecturers": {
+                "title": "Instructors",
+                "content": [
+                    "The teaching team consists of instructors with IELTS scores ranging from 7.5 to 8.0 and many years of teaching experience.",
+                    "The founder is the author of widely circulated books such as IELTS KEY GRAMMAR.",
+                    "The instructors are dedicated and strict, regularly updating the latest knowledge to ensure high teaching and learning quality"
+                ]
+            },
+            "teaching_methods": {
+                "title": "Teaching Methodology",
+                "content": [
+                    "Teaching students using the minimalist thinking approach, Minimalism.",
+                    "Applying Hybrid Learning, combining flexible in-person and online learning, independent of location.",
+                    "Classes have consistent lessons throughout the week, allowing for flexible scheduling for students to easily make up classes or take alternate sessions",
+                    "Utilizing advanced technologies such as AI and Gamification to support learning."
+                ]
+            }
+        },
+        "lectures": {
+            "label":"Instructors",
+            "description": "Instructors at Minimal English",
+            "detail_lectures": [
+                {
+                    "year": "Ms. Hằng Nga Luna",
+                    "username":"Highly qualified lecturer - Founder",
+                    "content": [
+                        "Master's in TESOL (MTESOL), Victoria University – Melbourne, Australia, 2018",
+                        "8.0 IELTS Overall (8.5 Speaking & 7.5 Writing)",
+                        "Author of a foundational grammar book using Mindmaps.",
+                        "Author of the IELTS Key Grammar book, published by the Vietnam National University Publishing House.",
+                        "12 years of experience in teaching IELTS and academic English.",
+                        "8 years of experience in developing English grammar curricula for students of all levels."
+                    ]
+                },
+                {
+                    "year": "Ms. Nguyễn Phương",
+                    "username":"Instructor at intermediate level",
+                    "content": [
+                        "Graduated with honors in Management Science from the University of Social Sciences and Humanities, Vietnam National University, Hanoi, receiving scholarships for all semesters.",
+                        "Graduated in English Language from Hanoi University (part-time program).",
+                        "Chungsoo Foundation Scholarship for Outstanding Students.",
+                        "Third Prize in Student Scientific Research.",
+                        "Master's Scholarship in Business Administration, taught in English, Vietnam-Japan University, Vietnam National University, Hanoi.",
+                        "PhD Candidate majoring in Sustainable Business at Corvinus University of Budapest.",
+                        "Lecturer at Đại Nam University since 2022."
+                    ]
+                },
+                {
+                    "year": "Mr. Tuấn Anh",
+                    "username":"Highly qualified lecturer",
+                    "content": [
+                        "8.0 IELTS Overall (8.5 Speaking, 7.5 Writing)",
+                        "Bachelor of International Law.",
+                        "7 years of teaching experience.",
+                        "3.5 years of experience in an international working environment.",
+                        "Modern teaching skills – Tâm Việt Group.",
+                        "Writing/Speaking assessment skills – Examiner at the British Council, trained by Mr. Paul Varah."
+                    ]
+                },
+                {
+                    "year": "Đỗ Đức",
+                    "username":"Academic supervision",
+                    "content": [
+                        "Graduated from Thăng Long High School.",
+                        "Recognized as an outstanding student for three years in high school, with an English average score always above 9.0",
+                        "Currently a second-year student at Foreign Trade University, majoring in Business English.",
+                        "Former teaching assistant at AMES English Times City."
+                    ]
+                },
+                {
+                    "year": "Nguyễn Anh Tú",
+                    "username":"Instructor at basic level",
+                    "content": [
+                        "Graduated with a Bachelor's degree in Education, Vietnam University of Fine Arts.",
+                        "3 years of experience in education.",
+                        "1 year of experience teaching and preparing students for English exams."
+                    ]
+                },
+                {
+                    "year": "Sơn Nguyễn",
+                    "username":"Instructor at basic level",
+                    "content": [
+                        "Vinschool Times City Middle School & High School 2016 - 2023: GPA 8.8",
+                        "Bachelor's degree in Computer Science (Swinburne University of Technology Vietnam) 2023 - 2026",
+                        "KITE (Kids Tech) intern, contributing to the development of learning materials and supporting instructors in lesson preparation for children.",
+                        "Intern at GreenCloud's Customer Support and Technical Assistance Unit, Technical Support Department, 365 Group LLC."
+                    ]
+                }
+
+            ]
+        }
+    },
+    "search": "Search",
+    "share": "Share:",
+    "notFound": "No results found",
+    "related": "Related articles",
+    "article": "Read more",
+    "discovery": "Discover",
+    "all": "All",
+    "read": "Read the article",
+    "readtime": "minutes read",
+    "come": "Coming soon",
+    "class": {
+        "label": {
+            "title": "CLASSES",
+            "register-title": "Register for class",
+            "description": "Register for class to conquer new challenges",
+            "register": "See how to register",
+            "isdescription": "New release coming soon."
+        }
+    },
+    "register": {
+        "label": {
+            "title": "HOW TO REGISTER",
+            "name": "HOW TO REGISTER FOR CLASSES"
+        },
+        "button1": "Explore the course",
+        "button2": "Register for the Test"
+    },
+    "lesson": {
+        "label": {
+            "view": "views"
+        }
+    },
+    "visionTitle": "",
+    "mission": {
+        "imageAlt": ""
+    },
+    "viewer": "views",
+    "download": "downloads",
+    "Lecture": "Lesson",
+    "Documents": "Learning resources",
+    "downloaded": "Download",
+    "language": {
+      "en": "ENG",
+      "vi": "VN"
+  }
+}

@@ -1,0 +1,276 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* *=========== Default theme =========== */
+/* @layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 4.9% 83.9%;
+  }
+} */
+
+/* *=========== Orange theme =========== */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 20 14.3% 4.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+
+    --primary: 24.6 95% 53.1%;
+    --primary-foreground: 60 9.1% 97.8%;
+
+    --secondary: 60 4.8% 95.9%;
+    --secondary-foreground: 24 9.8% 10%;
+
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+
+    --accent: 60 4.8% 95.9%;
+    --accent-foreground: 24 9.8% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 24.6 95% 53.1%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 60 9.1% 97.8%;
+
+    --card: 24 9.8% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 9.1% 97.8%;
+
+    --primary: 20.5 90.2% 48.2%;
+    --primary-foreground: 60 9.1% 97.8%;
+
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 60 9.1% 97.8%;
+
+    --destructive: 0 72.2% 50.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 20.5 90.2% 48.2%;
+  }
+}
+
+.shadow-light {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.085);
+}
+
+.shadow-dark {
+  box-shadow: inset 0 0 5px rgba(41, 15, 155, 0.141);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+ 
+}
+
+.class-content {
+  ul {
+    list-style-type: disc; /* Bỏ dấu bullet của các thẻ li */
+    padding: 0;            /* Bỏ padding mặc định của thẻ ul */
+    margin: 0;             /* Bỏ margin mặc định của thẻ ul */
+  }
+  p {
+    font-size: 20px;
+  }
+  li {
+    margin-left: auto;   /* Đảm bảo khoảng cách từ cạnh trái đều nhau */
+    margin-right: auto;  /* Đảm bảo khoảng cách từ cạnh phải đều nhau */
+    width: 40%;          /* Đặt chiều rộng của mỗi thẻ li */
+    text-align: unset!important;
+    font-size: 20px;
+  }
+  strong {
+    font-size: 48px;
+  }
+  @media only screen and (max-width: 600px) {
+    li {
+      width: 80%;
+    }
+    strong {
+      font-size: 32px;
+    }
+  }
+  table {
+
+    td {
+      padding: 10px;
+    }
+    tr:nth-child(odd) {
+      background:#F8EDED
+    }
+    tr:nth-child(even) {
+      background:#E5BEBD
+    }
+    tr:first-child {
+      background-color: #BE5C59;
+      color: white;
+    }
+  }
+
+}
+
+.ul {
+  ul {
+    list-style-type: disc;
+  }
+  li {
+    margin-left: 20px;
+  }
+}
+
+.custom-link {
+  a {
+    color: #BE5C59;
+    text-decoration-line: underline;
+  }
+  @media only screen and (max-width: 471px) {
+    a {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (max-width: 429px) {
+    a {
+      font-size: 14.5px;
+    }
+  }
+}
+
+/* CSS cho bảng giống hình ảnh với các màu PR */
+.custom-table {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-table table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.custom-table th, 
+.custom-table td {
+  border: 1px solid #D89E9C; /* Màu PR300 */
+  text-align: center;
+  padding: 8px;
+  font-size: 20px;
+  line-height: 32px;
+}
+.custom-table tr:first-child{
+  background-color: #BE5C59; /* Màu PR500 */
+  color: white;
+  font-weight: 600;
+}
+
+.custom-table tr:nth-child(3),
+.custom-table tr:nth-child(4)
+ {
+  background-color: #E5BEBD; /* Màu PR200 */
+  color: #000F30;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.custom-table tr:nth-child(2),
+.custom-table tr:nth-child(5),
+.custom-table tr:nth-child(6) {
+  background-color: #F8EDED; /* Màu PR50 */
+  color: #000F30;
+  font-size:16px;
+  line-height: 24px;
+  font-weight: 400;
+}
