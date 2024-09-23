@@ -53,7 +53,7 @@ export const Banner: React.FC<{ data: Section }> = ({ data }) => {
                     </div>
 
                     <div className="w-[85px] h-[85px] md:w-[120px] md:h-[120px] relative">
-                        <div className="w-[66.38px] h-[56.38px] md:w-[86.38px] md:h-[86.38px] absolute bg-[#F8EDED] left-[14.07%] top-[15.83%] rounded-[20px]"></div>
+                        <div className="w-[66.38px] h-[66.38px] md:w-[86.38px] md:h-[86.38px] absolute bg-[#F8EDED] left-[14.07%] top-[15.83%] rounded-[20px]"></div>
                         <div className="w-[24.44px] h-[24.44px] md:w-[34.44px] md:h-[34.44px] absolute bg-[#A1423F] left-[64.17%] top-[9.42%] rounded-lg rotate-[-10.55deg]"></div>
                     </div>
 
