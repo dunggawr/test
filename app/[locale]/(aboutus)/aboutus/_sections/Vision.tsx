@@ -13,7 +13,7 @@ export const Vision = ({ data }: { data: any }) => {
       <div className="grid lg:grid-cols-2 place-items-center gap-12">
         {/* desktop */}
         <div className="hidden lg:block">
-          <div className="flex relative w-[320px] h-[330px] xl:w-[567px] xl:h-[577px]">
+          <div className="flex relative w-[330px] h-[330px] xl:w-[577px] xl:h-[577px]">
             <div className="flex absolute top-0 left-0 w-full h-full justify-end items-start mr-2.5">
               <div className="relative w-[310px] z-[2] h-[310px] rounded-[32px] xl:w-[530px] xl:h-[530px] drop-shadow-2xl overflow-hidden">
                 <Image
@@ -44,9 +44,9 @@ export const Vision = ({ data }: { data: any }) => {
 
         {/* mobile */}
         <div className="block lg:hidden">
-          <div className="flex relative w-[280px] h-[290px]">
+          <div className="flex relative w-[330px] h-[330px]">
             <div className="flex absolute top-0 left-0 w-full h-full justify-end items-start mr-2.5">
-              <div className="relative w-[270px] z-[2] h-[270px] rounded-[32px]  drop-shadow-2xl overflow-hidden">
+              <div className="relative w-[310px] z-[2] h-[310px] rounded-[32px]  drop-shadow-2xl overflow-hidden">
                 <Image
                   fill
                   style={{ objectFit: "cover" }}
@@ -59,7 +59,7 @@ export const Vision = ({ data }: { data: any }) => {
             </div>
 
             <div className="flex absolute top-0 right-0 w-full h-full justify-start items-end mr-2.5">
-                <div className="z-0 w-[270px] h-[270px] bg-[#E5BEBD] rounded-[32px]"></div>
+                <div className="z-0 w-[310px] h-[310px] bg-[#E5BEBD] rounded-[32px]"></div>
             </div>
           </div>
         </div>
