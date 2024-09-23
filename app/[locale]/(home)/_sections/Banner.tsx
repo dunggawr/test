@@ -23,10 +23,10 @@ export const Banner: React.FC<{ data: Section }> = ({ data }) => {
                     </div>
                 </div>
 
-                <div className="grid grid-rows-3 grid-cols-3 w-[330px] h-[330px] lg:w-[400px] lg:h-[400px] place-items-center my-8 lg:my-0">
+                <div className="grid grid-rows-3 grid-cols-3 w-[280px] h-[280px] lg:w-[400px] lg:h-[400px] place-items-center my-8 lg:my-0">
                     <div className="w-[100px] h-[100px] md:w-[120px] md:h-[120px]"></div>
 
-                    <div className="relative w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
+                    <div className="relative w-[85px] h-[85px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
                         <Image
                             fill
                             style={{
@@ -39,7 +39,7 @@ export const Banner: React.FC<{ data: Section }> = ({ data }) => {
                         />
                     </div>
 
-                    <div className="relative w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
+                    <div className="relative w-[85px] h-[85px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
                         <Image
                             fill
                             style={{
@@ -52,12 +52,12 @@ export const Banner: React.FC<{ data: Section }> = ({ data }) => {
                         />
                     </div>
 
-                    <div className="w-[100px] h-[100px] md:w-[120px] md:h-[120px] relative">
+                    <div className="w-[85px] h-[85px] md:w-[120px] md:h-[120px] relative">
                         <div className="w-[76.38px] h-[76.38px] md:w-[86.38px] md:h-[86.38px] absolute bg-[#F8EDED] left-[14.07%] top-[15.83%] rounded-[24px]"></div>
                         <div className="w-[24.44px] h-[24.44px] md:w-[34.44px] md:h-[34.44px] absolute bg-[#A1423F] left-[64.17%] top-[9.42%] rounded-lg rotate-[-10.55deg]"></div>
                     </div>
 
-                    <div className="relative w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
+                    <div className="relative w-[85px] h-[85px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
                         <Image
                             fill
                             style={{
@@ -70,7 +70,7 @@ export const Banner: React.FC<{ data: Section }> = ({ data }) => {
                         />
                     </div>
 
-                    <div className="relative w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
+                    <div className="relative w-[85px] h-[85px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
                         <Image
                             fill
                             style={{
@@ -83,7 +83,7 @@ export const Banner: React.FC<{ data: Section }> = ({ data }) => {
                         />
                     </div>
 
-                    <div className="relative w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
+                    <div className="relative w-[85px] h-[85px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
                         <Image
                             fill
                             style={{
@@ -96,7 +96,7 @@ export const Banner: React.FC<{ data: Section }> = ({ data }) => {
                         />
                     </div>
 
-                    <div className="relative w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
+                    <div className="relative w-[85px] h-[85px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
                         <Image
                             fill
                             style={{
@@ -109,7 +109,7 @@ export const Banner: React.FC<{ data: Section }> = ({ data }) => {
                         />
                     </div>
 
-                    <div className="relative w-[100px] h-[100px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
+                    <div className="relative w-[85px] h-[85px] md:w-[120px] md:h-[120px] rounded-3xl overflow-hidden">
                         <Image
                             fill
                             style={{
