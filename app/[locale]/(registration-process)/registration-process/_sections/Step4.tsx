@@ -12,11 +12,11 @@ export const Step4: React.FC<{ data: Section }> = ({ data }) => {
     if (!data || isLoading) return <div></div>; 
 
     return (
-        <section className="py-[60px] px-[16px] md:px-[80px] bg-white">
-            <div className="text-[32px] leading-[52px] lg:text-[44px] lg:leading-[66px] font-bold md:py-[35px] md:font-bold text-black">
+        <section className="flex flex-col py-[60px] px-[16px] md:px-[80px] bg-white items-center">
+            <div className="text-[32px] leading-[52px] lg:text-[44px] lg:leading-[66px] font-bold md:py-[35px] md:font-bold text-black text-center">
                 {data?.name}
             </div>
-            <div className="w-full flex justify-center text-[#514F4F] text-[20px] font-[400] leading-8">
+            <div className="w-full flex justify-center text-[#514F4F] text-[20px] font-[400] leading-8 text-center max-w-[1228px]">
                 <div className="text-container" dangerouslySetInnerHTML={{ __html: data?.description || '' }} />
             </div>
             <div className="font-sans mt-0 md:mt-[50px] md:mb-[100px] md:py-[20px] custom-table">
@@ -31,7 +31,7 @@ export const Step4: React.FC<{ data: Section }> = ({ data }) => {
             </div>
             <div className="flex justify-center items-center rounded-lg overflow-hidden mt-0 md:mt-[0px]">
                 <video className="w-[900px] h-[450px]" controls>                    
-                    <source src="" type="video/mp4" />                 
+                    <source src="/videos/IMG_2955.mp4" type="video/mp4" />                 
                 </video>
             </div>
         </section>
