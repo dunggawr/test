@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { ArrowRight } from 'lucide-react';
 import { useTranslations } from "next-intl";
-import { useRouter } from "@/navigation"; 
+import { useRouter } from "@/navigation";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -79,7 +79,7 @@ export const Class: React.FC<{ data: Section }> = ({data}) => {
                                     </CardContent>
 
                                     <Button
-                                        className="w-full p-0 h-14 rounded-2xl bg-white text-[#BE5C59] border-solid border-[1px] font-[600] border-[#BE5C59] group/arrow"
+                                        className="w-full p-0 h-14 rounded-2xl bg-white hover:bg-[#BE5C59] text-[#BE5C59] border-solid border-[1px] font-[600] border-[#BE5C59] group/arrow"
                                         variant="ghost"
                                     >
                                         <div onClick={() => router.push(`${menu[2].url}/${id}`)} className="flex justify-center items-center gap-2 w-full h-full">

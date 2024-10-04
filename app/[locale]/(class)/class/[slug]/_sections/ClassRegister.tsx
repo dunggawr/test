@@ -21,7 +21,7 @@ export const ClassRegister = () => {
                 <label className={"text-[16px] font-[400] text-[#514F4F] mt-[12px]"}>
                     {t('class.label.description')}
                 </label>
-                <Button onClick={() => router.push(`/${locale}/registration-process`)}
+                <Button onClick={() => window.open(`https://forms.gle/Z7S2LzrZYqoVPCir6`, 'blank')}
                     className="w-[240px] h-[56px] rounded-[16px] bg-[#BE5C59] text-white text-center font-[700] mt-[16px]"
                     variant="ghost"
                 >

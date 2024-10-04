@@ -10,6 +10,7 @@ import { Step5 } from '@/app/[locale]/(registration-process)/registration-proces
 import { Step4 } from '@/app/[locale]/(registration-process)/registration-process/_sections/Step4';
 import { Step6 } from '@/app/[locale]/(registration-process)/registration-process/_sections/Step6';
 import { Step3 } from '@/app/[locale]/(registration-process)/registration-process/_sections/Step3';
+import { Diagram } from '@/app/[locale]/(registration-process)/registration-process/_sections/Diagram';
 
 export default function Page() {
     const pathname = usePathname();
@@ -19,6 +20,7 @@ export default function Page() {
 
     return (
         <React.Fragment>
+            {/*<Diagram data={section[1]}/>*/}
             <Step1 data={section[1]}/>
             <Step2 data={section[2]}/>
             <Step3 data={section[3]}/>
